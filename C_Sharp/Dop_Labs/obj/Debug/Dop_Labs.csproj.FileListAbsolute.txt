@@ -1,0 +1,10 @@
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\bin\Debug\Dop_Labs.exe.config
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\bin\Debug\Dop_Labs.exe
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\bin\Debug\Dop_Labs.pdb
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Labs.csproj.AssemblyReference.cache
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Labs.Form_Dop_Labs.resources
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Lab_4.Properties.Resources.resources
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Labs.csproj.GenerateResource.cache
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Labs.csproj.CoreCompileInputs.cache
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Labs.exe
+C:\Users\volch\Documents\МАГА\МиКМ\Лабы\MathCompMethodsAllLabs\C_Sharp\Dop_Labs\obj\Debug\Dop_Labs.pdb
