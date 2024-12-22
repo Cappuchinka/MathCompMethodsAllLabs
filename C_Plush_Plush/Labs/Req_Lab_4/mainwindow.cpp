@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->countButton->setEnabled(false);
 }
 
 MainWindow::~MainWindow()
@@ -37,6 +38,7 @@ void MainWindow::on_loadButton_clicked()
     inputImageCV = imread(fileName.toStdString());
     ui->inputImage->setPixmap(QPixmap(fileName));
     ui->inputImage->setScaledContents(true);
+    ui->countButton->setEnabled(true);
 }
 
 void MainWindow::on_highLossButton_clicked()
