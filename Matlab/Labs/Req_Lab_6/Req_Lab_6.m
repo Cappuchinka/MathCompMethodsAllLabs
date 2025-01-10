@@ -5,7 +5,7 @@ close all;
 
 defaultPath = ' C:\Users\volch\Documents\МАГА\МиКМ\';
 [fileName, pathName] = uigetfile({'*.jpg;*.jpeg;*.png;*.bmp;*.tif;*.tiff', 'Image Files (*.jpg,*.jpeg,*.png,*.bmp,*.tif,*.tiff)'}, 'Select an image file', defaultPath);
-image = double(imread(fullfile(pathName, fileName)));
+image = double(imread(fullfile(pathName, fileName))); % page
 
 [hg,wd,cn]=size(image);
 figure; imshow(image);
@@ -13,7 +13,7 @@ bwimage=im2bw(image);
 
 defaultPath = ' C:\Users\volch\Documents\МАГА\МиКМ\';
 [fileName, pathName] = uigetfile({'*.jpg;*.jpeg;*.png;*.bmp;*.tif;*.tiff', 'Image Files (*.jpg,*.jpeg,*.png,*.bmp,*.tif,*.tiff)'}, 'Select an image file', defaultPath);
-image = double(imread(fullfile(pathName, fileName)));
+image = double(imread(fullfile(pathName, fileName))); % spoiledPage
 
 [hg,wd,cn]=size(image);
 figure; imshow(image);
