@@ -15,7 +15,7 @@
 
 Для демонстрации работоспособности программы можно использовать контрольный пример из работы, посвященной прямому вычислению свертки.
 
-[Гайд по OpenCV + Qt](https://github.com/Cappuchinka/MathCompMethodsAllLabs/tree/master)
+[Гайд по OpenCV + Qt](https://drive.google.com/drive/folders/1sGROJo7HSU7OtPtvzCpK0bV3bKjzToGE)
 
 ### Лаба №5 (Matlab: Req_Lab_5):
 Синтез и реализация параллельно-рекурсивного алгоритма обработки изображений.
