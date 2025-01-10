@@ -1,10 +1,14 @@
+import cv2
 from tkinter import *
-from tkinter import ttk
+from tkinter import ttk, filedialog
+
+import numpy as np
 from PIL import ImageTk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from Opt_Lab_3.Opt_Lab_3 import lokus
 from Opt_Lab_5.Opt_Lab_5 import task_1, task_2, plot_combined_task_1, plot_combined_task_2
 from Opt_Lab_2.Opt_Lab_2 import mexican_hat, maxwell
+from Opt_Lab_8.Opt_Lab_8 import resursive_selective_filter
 
 
 def main():
@@ -81,6 +85,15 @@ def main():
         canvas.get_tk_widget().pack(side='left')
         opt_lab_5_t2_canvas.tight_layout()
 
+    def opt_lab_8_click():
+        file_path = filedialog.askopenfilename()
+        print(file_path)
+        if file_path:
+            img = cv2.imread(file_path)
+            cv2.imshow('Original', img)
+            cv2.imshow('Result', resursive_selective_filter(img))
+            cv2.waitKey(0)
+
     btn_opt_lab_2_mexican_hat = ttk.Button(text="Opt_Lab_2_mexican_hat", command=opt_lab_2_mexican_hat_click)
     btn_opt_lab_2_mexican_hat.pack(side='left', padx=5, pady=5)
 
@@ -95,6 +108,9 @@ def main():
 
     btn_opt_lab_5_t2 = ttk.Button(text="Opt_Lab_5_task2", command=opt_lab_5_t2_click)
     btn_opt_lab_5_t2.pack(side='left', padx=5, pady=5)
+
+    btn_opt_lab_8 = ttk.Button(text="Opt_Lab_8", command=opt_lab_8_click)
+    btn_opt_lab_8.pack(side='left', padx=5, pady=5)
 
     root.mainloop()
 
